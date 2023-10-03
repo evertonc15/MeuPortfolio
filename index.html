@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="formulario/formulario.html">
+    <title>Everton Candido</title>
 </head>
 <body>
+    
     <div class="background">
         <header>
             <div class="logo">
@@ -18,12 +20,15 @@
                     <a href="#">Home</a>
                 </li>
                 <li>
-                    <a href="#">Sobre</a>
+                    <a href="#sobre">Sobre</a>
                 </li>
                 <li>
-                    <a href="#">Trabalho</a>
+                    <a href="/formulario/formulario.html" target="_blank">Formularios</a>
                 </li>
-                <button>Meu Contato</button>
+                <li>
+                    <a href="#trabalho">Trabalho</a>
+                </li>
+                <button><a href="https://wa.me/5583999364187?text=Estou%20com%20d%C3%BAvida,%20poderia%20ajudar?" target="_blank">Meu Contato</a></button>
             </div><!--Cabeçalho-->
         </header>
         <div class="container-text">
@@ -33,24 +38,52 @@
                 <p>Se até as variáveis precisam ser declaradas! 
                     <br>Porque não me declarar pra você?</p>
                     <div class="redes-sociais">
-                        <a href="#">
+                        <a href="https://www.facebook.com/Beehfreestep" target="_blank">
                             <i class="fa-brands fa-facebook"></i>
                         </a>
-                        <a href="#">
-                            <i class="fa-brands fa-x-twitter"></i>
-                        </a>
-                        <a href="#">
+                        <a href="https://www.instagram.com/evertonc15" target="_blank">
                             <i class="fa-brands fa-instagram"></i>
                         </a>
-                        <a href="#">
+                        <a href="https://github.com/evertonc15" target="_blank">
                             <i class="fa-brands fa-github"></i>
                         </a>
-                        <a href="#">
+                        <a href="https://wa.me/5583999364187?text=Estou%20com%20d%C3%BAvida,%20poderia%20ajudar?" target="_blank">
                             <i class="fa-brands fa-whatsapp"></i>
                         </a>
                     </div><!--Redes Sociais-->
             </div><!--text-->
         </div><!--background-->
+        <section class="background-color-sobre">
+            <div class="sobre" id="sobre">
+                <img src="imagens/WhatsApp Image 2023-09-28 at 16.51.50.jpeg">
+                <div class="text-sobre">
+                    <h2>Sobre-Mim</h2>
+                    <h5>Desenvolvedor <span>& Contador</span></h5>
+                    <p>Sou um entusiasta de tecnologia e desenvolvedor em ascensão com 26 anos de idade, 
+                        atualmente dedicando meu tempo e energia para aprimorar minhas habilidades em Ciência da Programação. 
+                        Tenho uma paixão pela resolução de problemas complexos e pela criação de soluções eficientes usando uma variedade de linguagens de programação.</p>
+                        <p>Atualmente, estou matriculado no curso de Ciência da Programação na Faculdade Católica da Paraíba, 
+                            onde estou adquirindo conhecimentos teóricos sólidos e aprimorando minhas habilidades práticas</p>
+                            <button class="button"><a id="link-form" href="/formulario/formulario.html" target="_blank">Preencher formulario</a></button>
+                </div>
+            </div>
+        </section><!--background-color-sobre-->
+        <div class="trabalho" id="trabalho">
+            <div class="title">
+                <h2>Trabalhos</h2>
+                <p>Durante minha jornada acadêmica e profissional, participei de diversos projetos relevantes, incluindo:</p>
+            </div><!--Titulo-->
+            <div class="caixa">
+                <div class="card">
+                    <img class="java" src="icons/java.svg">
+                    <h5>Java</h5>
+                    <p>Desenvolvimento de alguns projetos usando Java. Como por exemplo: Uma criação de um Zoolólico em POO.</p>
+                    <button class="btn"><a href="https://github.com/evertonc15/ZoologicoPOO" id="link-form" target="_blank">Ver Mais</a></button>
+                </div><!--card-->
+                <br>Criação de um sistema de gerenciamento de estoque em Python para uma pequena empresa local.
+                <br>Colaboração em um projeto de site responsivo usando HTML e CSS para melhorar a presença online de uma organização sem fins lucrativos.</p>
+            </div><!--caixa-->
+        </div><!---Trabalhos-->
     </div>
 </body>
 </html>
