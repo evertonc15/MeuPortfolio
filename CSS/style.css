@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Oswald:wght@600&family=Poppins&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    font-family: "Poppins", sans-serif;
+    font-family: "Mooli",Georgia, 'Times New Roman', Times, serif;
 }
 
 html { 
-    background: url(../imagens/background-image.jpeg) no-repeat center center fixed; 
+    background: url(../imagens/what-is-a-web-developer.avif) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -44,7 +44,7 @@ header{
 }
 
 .cabecalho-link a:hover{
-    color: #2ecc33;
+    color: rebeccapurple;
     transition: 0.3s all;
 }
 
@@ -52,8 +52,8 @@ header{
     height: 40px;
     width: 40px;
     background: transparent;
-    border: 1px solid #2ecc71;
-    color: #2ecc71;
+    border: 1px solid rebeccapurple;
+    color: rebeccapurple;
     border-radius: 50%;
     display: inline-flex;
     align-items: center;
@@ -63,9 +63,9 @@ header{
 }
 
 button{
-    color: #2ecc71;
+    color: rebeccapurple;
      background: transparent;
-     border: solid 1px #2ecc71;
+     border: solid 1px rebeccapurple;
      padding: 5px;
      border-radius: 15px;
      font-size: 12px;
@@ -74,7 +74,7 @@ button{
 }
 
 button:hover{
-    background: #2ecc71;
+    background: rebeccapurple;
     color: #fff;
     transition: 0.5s;
 }
@@ -94,7 +94,7 @@ button:hover{
 }
 
 .text span{
-    color:#2ecc71;
+    color:rebeccapurple;
 }
 
 .text p{
@@ -105,7 +105,7 @@ button:hover{
 }
 
 .redes-sociais a{
-    color:#2ecc71;
+    color:rebeccapurple;
     padding: 10px;
     margin-top: 5px;
 }
@@ -117,7 +117,7 @@ button:hover{
 .sobre{
     text-align: center;
     color: #fff;
-    font-family: "Pappins" sans-serif;
+    font-family: "Mooli" Georgia, 'Times New Roman', Times, serif;
     font-size: 15px;
 }
 
@@ -129,7 +129,7 @@ button:hover{
 .trabalho{
     text-align: center;
     color: #fff;
-    font-family: "Pappins" sans-serif;
+    font-family: "Mooli" Georgia, 'Times New Roman', Times, serif;
     font-size: 15px;
 }
 
@@ -165,7 +165,7 @@ button:hover{
 .text-sobre h2{
     color: #fff;
     font-size: 75px;
-    font-family: "Poppins" sans-serif;
+    font-family: "Mooli" Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 20px;
 }
 
@@ -174,7 +174,7 @@ button:hover{
     letter-spacing: 2px;
     font-size: 22px;
     margin-bottom: 25px;
-    font-family: "Poppins", sans-serif;
+    font-family: "Mooli", Georgia, 'Times New Roman', Times, serif;
 }
 
 .text-sobre h5{
@@ -182,7 +182,7 @@ button:hover{
     letter-spacing: 2px;
     font-size: 22px;
     margin-bottom: 25px;
-    font-family: "Poppins", sans-serif;
+    font-family: "Mooli", Georgia, 'Times New Roman', Times, serif;
 }
 
 .text-sobre p{
@@ -219,4 +219,58 @@ button:hover{
 
 #link-form{
     color: white;
+}
+
+.trabalho{
+    background-color: #191919;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title h2{
+    color:#fff;
+    font-size: 75px;
+    width: 1330px;
+    margin: 30px;
+    text-align: center;
+}
+
+.title p{
+    color:#fff;
+    font-size: 18px;
+    width: 1330px;
+    margin: 30px;
+    text-align: center;
+}
+
+.caixa{
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    min-height: 400px;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: #2e2d2d;
+    height: 335px;
+    width: 335px;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card h5{
+    color: #fff;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.card p{
+    color: #fcfcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
 }
