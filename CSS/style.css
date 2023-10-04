@@ -6,7 +6,7 @@
     text-decoration: none;
     list-style: none;
     font-family: "Mooli",Georgia, 'Times New Roman', Times, serif;
-}
+}/*seleciona todos os elementos na página HTML*/
 
 html { 
     background: url(../imagens/what-is-a-web-developer.avif) no-repeat center center fixed; 
